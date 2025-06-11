@@ -1,0 +1,69 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  background: pink
+}
+
+.app{
+  /* makes app container fill entire screen height */
+  height: 100vh;
+  display: flex;
+  /* stacking content vertically rather than horizontal */
+  flex-direction: column;
+  /* vertical centering */
+  justify-content: center;
+  /* horizontal centering */
+  align-items: center;
+  /* gives nice space so content not stuck to edges */
+  padding: 2rem;
+  /* centers all text inside */
+  text-align: center;
+
+}
+
+h1{
+  color: purple
+}
+
+.mood-buttons{
+  /* lays emoji buttons in row */
+  display:flex; 
+  /* centers buttons */
+  justify-content: center;
+  /* allows buttons to wrap onto new line or smaller screens */
+  flex-wrap: wrap;
+  /* space between buttons */
+  gap: 12px;
+  /* space above button row */
+  margin-top: 2rem;
+}
+
+button {
+  font-size: 2rem;
+  /* adding space inside button so its not cramped */
+  padding: 0.5rem 1rem;
+  /* removes default border */
+  border: none;
+  /* rounds corners */
+  border-radius: 12px;
+  /* background colour */
+  background: #f4edff;
+  /* looks clickable */
+  cursor: pointer;
+  /* smooth transition when hover style changes */
+  transition: all 0.2s ease;
+  /* creates shadow behind button */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+button:hover {
+  /* background color for hover */
+  background: #e5d4ff
+}
+
+.selected-mood {
+  margin-top: 3rem;
+  font-size: 1.5rem;
+  color: #6a3ea1
+}
