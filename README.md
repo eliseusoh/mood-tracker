@@ -16,7 +16,7 @@ This is a simple React app that lets you pick how you feel using emoji buttons.
   - Click any emoji button to select your mood for today.
 
 - See Your Mood:
- - Once you pick, your mood appears below!
+  - Once you pick, your mood appears below!
 
 ---
 
